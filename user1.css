@@ -1,0 +1,24 @@
+img{
+    margin-left: 400px;
+    width: 500px;
+}
+.name{
+    width: 100%;
+}
+.pass{
+    width: 100%;
+}
+.login{
+    width: 100%;
+    background-color: rgb(43, 245, 130);
+    padding: 2px;
+}
+#reset{
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: red;
+    padding: 2px;
+}
+.password{
+    margin-left: 90%;
+}

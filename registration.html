@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(66, 123, 171);
+        }
+        h1{
+            text-decoration: underline;
+            text-align: center;
+        }
+        form{
+            margin: 30px 30px 30px;
+        }
+        input[type="text"],input[type="email"],input[type="number"],input[type="tel"],textarea{
+            padding: 5px;
+            flex: 1;
+            box-sizing:border-box;
+            margin-bottom: 10px;
+            text-align: center;
+            align-content: baseline;
+        }
+        label{
+            display:inline-block;
+            width: 150px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <fieldset>
+        <legend>Registration Form</legend>
+        <form action="">
+            <label for="first">First Name : </label>
+            <input type="text" name="" id=""><br><br>
+            <label for="last">Last Name : </label>
+            <input type="text"><br><br>
+            <label for="age">Age : </label>
+            <input type="number" name="" id=""><br><br>
+            <label for="email">Email id : </label>
+            <input type="email" name="" id=""><br><br>
+            <label for="description">Description : </label>
+            <textarea name="" id=""></textarea><br><br>
+            <label for="phone">Phone : </label>
+            <input type="tel" name="" id=""><br><br>
+            <label for="occupation">Occupation : </label>
+            <input type="text" name="" id=""><br><br>
+            <label for="agree"><input type="radio" name="agreement" id="agree">I Agree Terms and conditions</label>
+            <label for="disagree"><input type="radio" name="agreement" id="disagree">I disagree</label><br>
+            <input type="submit" name="" id="">
+            <input type="reset" name="" id="">
+        </form>
+    </fieldset>
+</body>
+</html>

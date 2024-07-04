@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(ncit.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        a{
+            text-decoration: none;
+            margin: auto;
+        }
+        .login{
+            background-color: rgb(0, 255, 157);
+            float: left;
+            margin-left: 40px;
+            margin-top: 10rem;
+            width: 300px;
+            padding: 30px;
+        }
+        .label{
+            width: 40%;
+            display: inline-block;
+        }
+        .form{
+            margin-left: 1000px;
+            background-color: rgb(0, 255, 157);
+            width: 350px;
+            padding: 20px;
+        }
+        .right{
+            float: right;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <form action="">
+            <label for="name" class="label">Username</label>
+            <input type="text" name="" id="" placeholder="darsahan"><br><br>
+            <label for="pass" class="label"> Password: </label>
+            <input type="password" name="" id="" placeholder="e.g.1234456"><br>
+            <a href="">Forgot Password?</a>
+        </form>
+    </div>
+    <div class="form">
+        <form action="">
+        <label for="first" class="label">First name:</label>
+        <input type="text" id="first" placeholder="Darshan" class="right"><br><br>
+        <label for="last" class="label">Last Name</label>
+        <input type="text" name="" id="last" placeholder="Thapa" class="right"><br><br>
+        <label for="email" class="label">Email</label>
+        <input type="email" name="" id="email" class="right"><br><br>
+        <label for="password" class="label">Password</label>
+        <input type="password" name="" id="password" placeholder="e.g.12345" class="right"><br><br>
+        <label for="contact" class="label">Contact</label>
+        <input type="number" name="" id="contact" placeholder="eg.123456" class="right"><br><br>
+        <label for="state" class="label">State</label>
+        <input type="" name="" id=""  class="right"><br><br>
+        <label for="photo" class="label">Photo</label>
+        <input type="file" name="" id="photo" accept="/*image" class="right"><br><br>
+        <label for="gender" class="label">Gender</label>
+        <input type="radio" id="Male" name="gender"><label for="Male">Male</label>
+        <input type="radio" id="Female" name="gender"><label for="Female">Female</label>
+        <input type="radio" id="other" name="gender"><label for="other">others</label><br><br>
+        <label for="faculty" class="label">Faculty</label>
+        <label for="BCA">
+        <input type="radio" name="Faculty" id="BCA">BCA</label>
+        <label for="BBS">
+        <input type="radio" name="Faculty" id="BBS">BBS</label>
+        <label for="+2">
+        <input type="radio" name="Faculty" id="+2">+2</label><br><br>
+        <label for="Hobbies" class="label">Hobbies</label>
+        <input type="checkbox" name="" id="music"><label for="music">Music</label>
+        <input type="checkbox" name="" id="travel"><label for="travel">Travel</label>
+        <input type="checkbox" name="" id="book"><label for="book">Reading books</label><br><br>
+        <label for="nationality" class="label">Nationality</label>
+        <select name="" id="" class="right">
+            <option value="Nepali">Nepali</option>
+            <option value="Indian">Indian</option>
+        </select><br><br>
+        <label for="message" class="label">Message</label>
+        <textarea name="" id="" class="right"></textarea><br><br>
+        <label for="terms" class="label">Terms & conditions</label>
+        <input type="radio" id="agree" name="terms"><label for="agree">I agree</label>
+        <input type="radio" name="terms" id="not"><label for="not">I disagree</label>
+        <br><br>
+        <input type="submit" name="submit" id="" value="SignUp">
+        <input type="reset" name="reset" id="" value="Clear">
+        </form>
+    </div>
+</body>
+</html>

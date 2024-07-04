@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Acme' rel='stylesheet'>
+    <style>
+        body{
+            font-family: 'Acme';font-size: 14px;
+            color: rgb(85, 82, 82);
+            background-color: aqua;
+        }
+        input{
+            width: 90%;
+        }
+        .main{
+            margin: auto;
+            height: 34rem;
+            width: 25rem;
+            background-color: gold;
+            text-align: center;
+            padding: 5px;
+            border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            box-shadow: 4px 3px 2px rgb(96, 91, 91);
+        }
+        label{
+            padding: 5px;
+            display: block;
+        }
+        #button{
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(121, 241, 47);
+            border: 1px solid rgb(213, 210, 210);
+        }
+        img{
+            width: 40px;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <div class="main">
+            <h1>Payment Details</h1>
+            <label for="name">Full name</label>
+            <input type="text" name="name" id="" placeholder="Darshan Thapa"><br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="" placeholder="xyz@example.com"><br><br>
+            <label for="Card">Card Number</label>
+            <input type="number" name="card number" id="" placeholder="1122334455"><br><br>
+            <label for="date">Expiry Date</label>
+            <input type="date" name="expiry date" id=""><br><br>
+            <label for="CVV">CVV</label>
+            <input type="number" name="cvv" id="" placeholder="12345" maxlength="5"><br><br>
+            <label for="Accepted">Accepted</label>
+            <img src="master.png" alt=""> <img src="visa.png" alt=""><br>
+            <input type="button" name="payment" id="button" value="pay"><br>
+        </div>
+    </form>
+</body>
+</html>
